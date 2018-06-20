@@ -7,12 +7,126 @@
     <div class="collapse navbar-collapse text-center justify-content-end" id="navbarInfoContent">
       <ul class="navbar-nav">
         <li class="nav-item mx-1 navbar">
-          <a class="nav-link align-items-center d-flex" id="nbut" href="#">ENTRAR</a>
+          <a class="nav-link align-items-center d-flex" id="nbut" href="#" data-toggle="modal" data-target="#modal1">ENTRAR</a>
         </li>
         <li class="nav-item mx-1 navbar">
-          <a class="nav-link align-items-center d-flex" id="nbut" href="#">CADASTRE-SE</a>
+          <a class="nav-link align-items-center d-flex" id="nbut" href="#" data-toggle="modal" data-target="#modal2">CADASTRE-SE</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
+
+
+<div class="modal fade" id="modal1">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="py-0 align-items-center">
+                <div class="card bg-info">
+                  <div class="card-body text-center">
+                    <button type="button" class="btn btn-info" data-dismiss="modal" id="bclosed">X</button>
+                        <h5 class="mb-4">
+                          <b>ENTRAR</b>
+                        </h5>
+                        <button class="btn btn-icon rounded btn-light mx-1 btn-facebook shadow" type="button">
+                          <i class="fab fa-fw fa-lg fa-facebook-square"></i>
+                        </button>
+                        <button class="btn btn-icon rounded btn-lg btn-light mx-1 btn-twitter shadow" type="button">
+                          <i class="fab fa-fw fa-2x fa-twitter"></i>
+                        </button>
+                        <button class="btn btn-icon rounded btn-light mx-1 btn-google shadow" type="button">
+                          <i class="fab fa-fw fa-google-plus fa-lg"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="row mt-4 pt-2" id="lmodal">
+                      <div class="col">
+                        <form>
+                          <div class="form-group mb-2">
+                            <div class="input-group border-0">
+                              <div class="input-group-prepend ">
+                                <span class="input-group-text" id="basic-addon1">
+                                  <i class="now-ui-icons text_caps-small lg"></i>
+                                </span>
+                              </div>
+                              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email"> </div>
+                          </div>
+                          <div class="form-group mb-3">
+                            <div class="input-group border-0">
+                              <div class="input-group-prepend ">
+                                <span class="input-group-text" id="basic-addon1">
+                                  <i class="now-ui-icons ui-1_email-85 lg"></i>
+                                </span>
+                              </div>
+                              <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Senha"> </div>
+                          </div>
+                          <button type="submit" class="btn mt-4 mb-3 btn-info btn-center rounded btn-lg text-white">CADASTRE-SE</button>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="modal2">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="py-0 align-items-center">
+          <div class="card bg-info">
+            <div class="card-body text-center">
+              <button type="button" class="btn btn-info" data-dismiss="modal" id="bclosed">X</button>
+              <h5 class="mb-4">
+                <b>ENTRAR</b>
+              </h5>
+              <button class="btn btn-icon rounded btn-light mx-1 btn-facebook shadow" type="button">
+                <i class="fab fa-fw fa-lg fa-facebook-square"></i>
+              </button>
+              <button class="btn btn-icon rounded btn-lg btn-light mx-1 btn-twitter shadow" type="button">
+                <i class="fab fa-fw fa-2x fa-twitter"></i>
+              </button>
+              <button class="btn btn-icon rounded btn-light mx-1 btn-google shadow" type="button">
+                <i class="fab fa-fw fa-google-plus fa-lg"></i>
+              </button>
+            </div>
+          </div>
+          <div class="row mt-4 pt-2" id="lmodal">
+            <div class="col">
+              <form>
+                <div class="form-group mb-2">
+                  <div class="input-group border-0">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="basic-addon1">
+                        <i class="now-ui-icons users_circle-08 lg"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Seu Nome"> </div>
+                </div>
+                <div class="form-group mb-2">
+                  <div class="input-group border-0">
+                    <div class="input-group-prepend ">
+                      <span class="input-group-text" id="basic-addon1">
+                        <i class="now-ui-icons text_caps-small lg"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Email"> </div>
+                </div>
+                <div class="form-group mb-3">
+                  <div class="input-group border-0">
+                    <div class="input-group-prepend ">
+                      <span class="input-group-text" id="basic-addon1">
+                        <i class="now-ui-icons ui-1_email-85 lg"></i>
+                      </span>
+                    </div>
+                    <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="Senha"> </div>
+                </div>
+                <button type="submit" class="btn mt-4 mb-3 btn-info btn-center rounded btn-lg text-white">CADASTRE-SE</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+

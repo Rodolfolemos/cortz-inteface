@@ -7434,3 +7434,13 @@ html, body {
   font-weight: 700px;
   font-size: 14px;
 }
+
+#lmodal {
+  margin-left: 8.5rem;
+}
+
+#bclosed {
+  margin: 0;
+  padding: 0;
+  float: right;
+}
